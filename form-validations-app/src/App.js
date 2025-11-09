@@ -4,6 +4,7 @@ import MyInput from './MyInput';
 import MyForm from './MyForm';
 import CustomForm from './CustomForm';
 import FormWithErrors from './FormWithErrors';
+import CustomHook from './CustomHook';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <MyForm />
       <CustomForm />  
       <FormWithErrors />
+      <CustomHook />
     </div>
   );
 }
